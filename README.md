@@ -5,7 +5,7 @@ This repository contains the experiments done in the work "DyNODE: Neural Ordina
 Experiments are done in PyTorch. If you find this repository helpful, please cite our work:
 
 ```
-@article{Victor2020,
+@article{alvarez2020dynode,
 	author    = {Victor M. Martinez Alvarez and Rareș Roșca and Cristian G. Fălcuțescu},
 	title     = {DyNODE: Neural Ordinary Differential Equations for Dynamics Modeling in Continuous Control},
 	journal   = {arXiv:2009.04278},
