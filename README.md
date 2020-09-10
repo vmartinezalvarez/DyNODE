@@ -8,7 +8,7 @@ Experiments are done in PyTorch. If you find this repository helpful, please cit
 @article{Victor2020,
 	author    = {Victor M. Martinez Alvarez and Rareș Roșca and Cristian G. Fălcuțescu},
 	title     = {DyNODE: Neural Ordinary Differential Equations for Dynamics Modeling in Continuous Control},
-	journal   = {arXiv:},
+	journal   = {arXiv:2009.04278},
 	year      = {2020},
 }
 ```
