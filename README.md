@@ -13,3 +13,10 @@ Experiments are done in PyTorch. If you find this repository helpful, please cit
 }
 ```
 
+## Installation 
+
+All the required dependencies are in the `conda_env.yml` file. To install them use the following command:
+
+```
+conda env create -f conda_env.yml
+```
