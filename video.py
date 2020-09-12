@@ -2,7 +2,6 @@ import imageio
 import os
 import numpy as np
 
-
 class VideoRecorder(object):
     def __init__(self, dir_name, height=256, width=256, camera_id=0, fps=30):
         self.dir_name = dir_name
