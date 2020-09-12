@@ -33,6 +33,7 @@ CUDA_VISIBLE_DEVICES=0 python train_dynode.py \
 In your console, you should see printouts that look like:
 
 <p style='color:red'>This is some red text.</p>
+
 ```
 | eval  | S: 5000 | ER: 167.09909
 | train | E: 0 | S: 5000 | D: 301.1 s | R: 0.00000   | BR: 0.00000 | A_LOSS: 0.00000   | CR_LOSS: 0.00000 | M_LOSS: 0.00000
