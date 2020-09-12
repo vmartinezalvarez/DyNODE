@@ -33,8 +33,13 @@ CUDA_VISIBLE_DEVICES=0 python train_dynode.py \
 In your console, you should see printouts that look like:
 
 ```
-| train | E: 221 | S: 28000 | D: 18.1 s | R: 785.2634 | BR: 3.8815 | A_LOSS: -305.7328 | CR_LOSS: 190.9854 | M_LOSS: 0.0000
-| train | E: 225 | S: 28500 | D: 18.6 s | R: 832.4937 | BR: 3.9644 | A_LOSS: -308.7789 | CR_LOSS: 126.0638 | M_LOSS: 0.0000
-| train | E: 229 | S: 29000 | D: 18.8 s | R: 683.6702 | BR: 3.7384 | A_LOSS: -311.3941 | CR_LOSS: 140.2573 | M_LOSS: 0.0000
-| train | E: 233 | S: 29500 | D: 19.6 s | R: 838.0947 | BR: 3.7254 | A_LOSS: -316.9415 | CR_LOSS: 136.5304 | M_LOSS: 0.0000
+| eval  | S: 5000 | ER: 167.09909
+| train | E: 0 | S: 5000 | D: 301.1 s | R: 0.00000 | BR: 0.00000 | A_LOSS: 0.00000 | CR_LOSS: 0.00000 | M_LOSS: 0.00000
+| train | E: 6 | S: 6000 | D: 281.9 s | R: 186.28232 | BR: 0.13017 | A_LOSS: -18.17264 | CR_LOSS: 0.18433 | M_LOSS: 0.08837
+| train | E: 7 | S: 7000 | D: 275.6 s | R: 163.70892 | BR: 0.13792 | A_LOSS: -20.57893 | CR_LOSS: 0.47372 | M_LOSS: 0.03110
+| train | E: 8 | S: 8000 | D: 274.1 s | R: 242.66144 | BR: 0.15333 | A_LOSS: -22.16228 | CR_LOSS: 0.54115 | M_LOSS: 0.07415
+| train | E: 9 | S: 9000 | D: 271.4 s | R: 207.88210 | BR: 0.17214 | A_LOSS: -23.22978 | CR_LOSS: 0.31086 | M_LOSS: 0.04055
+| train | E: 10 | S: 10000 | D: 0.0 s | R: 468.76406 | BR: 0.19523 | A_LOSS: -24.92557 | CR_LOSS: 0.24657 | M_LOSS: 0.01961
+| eval  | S: 10000 | ER: 478.78332
+
 ```
