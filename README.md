@@ -22,7 +22,7 @@ conda env create -f conda_env.yml
 ```
 
 ## Instructions
-To train a DyNODE agent on the `cartpole swingup` task run `bash script/run.sh` from the root of this directory. The `run.sh` file contains the following command, which you can modify to try different environments / hyperparamters.
+To train a DyNODE agent on the `cartpole swingup` task run the following command, which you can modify to try different environments / hyperparamters.
 ```
 CUDA_VISIBLE_DEVICES=0 python train_dynode.py \
     --domain_name cartpole \
